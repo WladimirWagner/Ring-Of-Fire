@@ -1,0 +1,20 @@
+.start-screen {
+  background-image: url(./../../assets/img/other_img/rof_start.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: white;
+  background-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #296CDD;  
+}

@@ -1,0 +1,32 @@
+.player {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid white;
+  border-radius: 16px;
+  
+  >span {
+    font-size: 32px;
+    color: white;
+    margin-left: 24px;
+  }
+  >img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    filter: invert(94%) sepia(5%) saturate(2886%) hue-rotate(192deg) brightness(114%) contrast(110%);
+  }
+}
+
+.player-active {
+  border: 1px solid #296CDD;
+
+  >span {
+    color: #296CDD;
+  }
+
+  >img {
+    filter: invert(33%) sepia(94%) saturate(3085%) hue-rotate(209deg) brightness(93%) contrast(85%);
+  }
+}
